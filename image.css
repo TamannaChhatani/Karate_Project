@@ -1,0 +1,41 @@
+.addnewuser{
+
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+
+.update
+{
+
+    margin-left: 30px;
+}
+
+.delete{
+    margin-left: 30px;
+}
+tbody tr:nth-child(odd) {
+  background-color: #ff33cc;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e495e4;
+}
+
+tbody tr {
+  background-image: url(k.jpg);
+}
+
+table {
+  background-color: #ff33cc;
+}
+
+caption {
+  font-family: 'Rock Salt', cursive;
+  padding: 20px;
+  font-style: italic;
+  caption-side: bottom;
+  color: #666;
+  text-align: right;
+  letter-spacing: 1px;
+}

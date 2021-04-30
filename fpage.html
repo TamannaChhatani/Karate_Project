@@ -1,0 +1,222 @@
+<html>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Style the body */
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+    }
+    
+    /* Header/logo Title */
+    .header {
+      padding: 75px;
+      text-align: center;
+      background:black;
+      color: white;
+    }
+ 
+    .top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+    
+    /* Increase the font size of the heading */
+    .header h1 {
+      font-size: 40px;
+    }
+    
+    /* Style the top navigation bar */
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+    }
+    .icon-box.iconbox-border {
+    border: 1px solid #dcdcdc;
+    }
+    .bg-theme-colored {
+    background-color: #E80040 !important;
+    }
+    .icon-box {
+    margin-bottom: 30px;
+}.text-center {
+    text-align: center;
+}
+
+
+
+
+    
+    /* Style the navigation bar links */
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    
+    /* Right-aligned link */
+    .navbar a.right {
+      float: right;
+    }
+    
+    /* Change color on hover */
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    /* Column container */
+    .row {  
+      display: -ms-flexbox; /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE10 */
+      flex-wrap: wrap;
+    }
+    
+    /* Create two unequal columns that sits next to each other */
+    /* Sidebar/left column */
+    .side {
+      -ms-flex: 30%; /* IE10 */
+      flex: 30%;
+      background-color: #f1f1f1;
+      padding: 20px;
+    }
+    
+    /* Main column */
+    .main {   
+      -ms-flex: 70%; /* IE10 */
+      flex: 70%;
+      background-color: white;
+      padding: 20px;
+    }
+    
+    /* Fake image, just for this example */
+    .fakeimg {
+      background-color: #aaa;
+      width: 100%;
+      padding: 20px;
+    }
+    
+    /* Footer */
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+    }
+    
+    /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 700px) {
+      .row {   
+        flex-direction: column;
+      }
+    }
+    
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {
+      .navbar a {
+        float: none;
+        width: 100%;
+      }
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="header">
+      <img src="C:\xampp\htdocs\karate_project\images\slider-img.png" height="70%" >
+      <h1 class="top-left"> Welcome to Karate tournament</h1>
+      <a  href="insert.php">ADD PLAYER</a> 
+      <a href="maindata.php" class="btn btn-default btn-sm">CREATE TOURNAMENT</a>      
+    </div>
+    
+    <div class="navbar">
+      
+      <div class="icon-box bg-theme-colored iconbox-border text-center">
+        <a href="#" class="icon icon-top icon-white border-1px icon-circled icon-border-effect effect-circled icon-lg" data-margin-top="-20px" style="margin-top: -20px;">
+          <i class="flaticon-sports text-theme-colored"></i>
+        </a>
+        <div class="p-40 pt-0">
+          <h3 class="icon-box-title text-white mt-0 text-uppercase"></h3>
+          <p class="text-white"></p>
+        
+        </div>
+      </div>
+      <div class="icon-box bg-theme-colored iconbox-border text-center">
+        <a href="#" class="icon icon-top icon-white border-1px icon-circled icon-border-effect effect-circled icon-lg" data-margin-top="-20px" style="margin-top: -20px;">
+          <i class="flaticon-sports text-theme-colored"></i>
+        </a>
+        <div class="p-40 pt-0">
+          <h3 class="icon-box-title text-white mt-0 text-uppercase"></h3>
+          <p class="text-white"></p>
+          
+        </div>
+      </div>
+      <div class="icon-box bg-theme-colored iconbox-border text-center">
+        <a href="#" class="icon icon-top icon-white border-1px icon-circled icon-border-effect effect-circled icon-lg" data-margin-top="-20px" style="margin-top: -20px;">
+          <i class="flaticon-sports text-theme-colored"></i>
+        </a>
+        <div class="p-40 pt-0">
+          <h3 class="icon-box-title text-white mt-0 text-uppercase"></h3>
+          <p class="text-white"></p>
+       
+        </div>
+      </div>
+     
+     
+      <a href="#"></a>
+      <a href="#"></a>
+      <a href="#" class="right"></a>
+    </div>
+    
+    <div class="row">
+      <div class="side">
+        <h2></h2>
+        <h5></h5>
+        <div class="fakeimg" style="height:200px;"></div>
+        <p></p>
+        <h3></h3>
+        <p></p>
+        <div class="fakeimg" style="height:60px;"></div><br>
+        <div class="fakeimg" style="height:60px;"></div><br>
+        <div class="fakeimg" style="height:60px;"></div>
+      </div>
+      <div class="main">
+        <h2></h2>
+        <h5></h5>
+        <div class="fakeimg" style="height:200px;"><img src="C:\xampp\htdocs\karate_project\images\fight.jpeg"></div>
+        <p></p>
+        <p></p>
+        <br>
+        <h2></h2>
+        <h5></h5>
+        <div class="fakeimg" style="height:200px;"></div>
+        <p></p>
+        <p></p>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <h2>Ⓒ 2021 OrionCoders Digital Private Limited</h2>
+    </div>
+    
+    </body>
+    </html>
+    
+
+
+
+
+</html>

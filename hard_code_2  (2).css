@@ -1,0 +1,57 @@
+main{
+    display:flex;
+    flex-direction:row;
+    margin-top: 1ch;
+  }
+  .round{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width:80px;
+    list-style:none;
+    padding:0;
+  }
+    .round .spacer{ flex-grow:1; }
+    .round .spacer:first-child,
+    .round .spacer:last-child{ flex-grow:.5; }
+  
+    .round .game-spacer{
+      flex-grow:1;
+    }
+  
+    .t{
+        float: right;
+    }
+  /*
+   *  General Styles
+  */
+  body{
+    font-family:sans-serif;
+    font-size:small;
+    padding:5px;
+    line-height:14.9px;
+  }
+  
+  li.game{
+    padding-left:10px;
+  }
+  
+    li.game.winner{
+      font-weight:bold;
+      
+    }
+    li.game span{
+      float:right;
+      margin-right:70px;
+    }
+  
+    li.game-top{ border-bottom:1px solid #aaa; }
+  
+    li.game-spacer{ 
+      border-right:1px solid #aaa;
+      min-height:70px;
+    }
+  
+    li.game-bottom{ 
+      border-top:1px solid #aaa;
+    }

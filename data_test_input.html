@@ -1,0 +1,224 @@
+<style>
+    @import url(https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700);
+
+body {
+  background-color: #efefef;
+  color: white;
+  font-size: 100%;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: 400;
+}
+
+form {
+  border-top: 5px solid #01caa7;
+  width: 552px;
+  margin: 40px auto;
+}
+
+fieldset {
+  margin: auto;
+  width: 470px;
+  height: auto;
+  border: 1px solid #e5e5e5;
+  border-top: 0px solid #e5e5e5;
+  background: #fdfdfd;
+  padding: 40px;
+}
+
+form div {
+  padding: 0 0 40px 0;
+}
+
+form label {
+  float: left;
+  width: 200px;
+  font-size: 1em;
+  color: #111;
+}
+
+form label.mid {
+  line-height: 40px;
+}
+
+form input, form select {
+ background:royalblue;
+	border: 2px solid #fff;
+	color: #fff;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	height: 40px;
+	margin: 0;
+	padding: 0 10px;
+	width: 240px;
+ vertical-align: middle;
+}
+
+form input:hover, form select:hover, form textarea:hover {
+	border: 2px solid #2b7b5c;
+}
+
+form input:focus, form select:focus, form textarea:focus {
+  border-color: #2b7b5c;
+  outline: none;
+}
+
+form select {
+  float: left;
+  margin-bottom: 40px;
+  appearance: none;
+  width: 260px;
+  border-radius: 0;
+}
+
+form input.checkbox, form input.radio {
+  margin: 0;
+  padding: 2px 0;
+  width: auto;
+  height: auto;
+}
+
+form input.button {
+  width: 270px;
+  height: 40px;
+  border: 0px solid #fff;
+}
+
+form textarea {
+  width: 240px;
+  height: 200px;
+  padding: 10px;
+  background: #01caa7;
+	 border: 2px solid #fff;
+	 color: #fff;
+}
+
+form input.submit { 
+  float: left;
+  margin-left: 200px;
+  width: 100px;
+  height: 40px;
+  color: #fff;
+}
+
+form input.submit:hover { 
+ background: #1d9676;
+	background: -webkit-linear-gradient(#1d9676, #01caa7);	
+	background: -moz-linear-gradient(#1d9676, #01caa7);	
+	background: -o-linear-gradient(#1d9676, #01caa7);	
+	background: -ms-linear-gradient(#1d9676, #01caa7);	
+	background: linear-gradient(#1d9676, #01caa7);	
+}
+</style>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <div>
+                <label for="gender" class="mid">Gender:</label>
+                <select name="gender" id="gender">
+                    <option value="">Select Gender</option>
+                            <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                       
+                </select>
+            </div>
+            <div>
+                <label for="kata">Kata:</label>
+               
+                <input type="radio" name="kata" value="yes"  class="radio" > <label for="yes">Yes</label>
+                <input type="radio" name="kata" value="no"  class="radio" >No
+            </div>
+            <div>
+                <label for="kumite">Kumite:</label>
+             
+                <input type="radio" name="kumite" value="yes"  class="radio" >Yes
+                <input type="radio" name="kumite" value="no"  class="radio" >No
+            </div>
+            <div>
+                <label for="belt">Belt:</label>
+                <select id="belt" name="belt">
+                    <option value="">Select Belt </option>
+                                        <option value=" Brown/Black Belt" > Brown/Black Belt </option>
+                                        <option value="Colour Belt" >Colour Belt </option>
+                                    </Select>
+            
+            </div>
+            <div>
+                <label  name="age"> Age: </label> 
+                <label for="from">From</label>
+    <input name="minage"  id="from" type="text" /> 
+    <label for="TO">To</label>
+    <input  name="maxage" id="to" type="text" />
+            </div>
+
+          <div>
+              
+            <label >Weight: </label>  
+            <label for="from">From</label>
+            <input  name="minweight" type="text" />
+            <label for="TO">To</label>
+
+            <input  name="maxweight" type="text" />
+          </div>
+          <div>
+            <label > Coach/District/State: </label>    &nbsp;  
+            <select name="coach" >
+            <option value="">Select</option>
+
+          </div>
+          
+          
+      <!--  <div>
+            <label for="name" class="mid">Text Input:</label>
+            <input type="text" name="name" id="name" value="" tabindex="1">
+        </div>
+      
+        <div>
+            <label for="password" class="mid">Password Input:</label>
+            <input type="password" name="password" id="password" value="" tabindex="2">
+        </div>
+    
+         <div>
+             <label for="radio-choice-1">Choice 1</label>
+             <input type="radio" name="radio-choice" id="radio-choice-1" class="radio" tabindex="5" value="choice-1">
+        </div>
+           
+        <div>
+            <label for="radio-choice-2">Choice 2</label>
+            <input type="radio" name="radio-choice" id="radio-choice-2" class="radio" tabindex="6" value="choice-2">
+        </div>
+      
+        <div>
+            <label for="select-choice-2" class="mid">Select Choice:</label>
+            <select name="extraoptions" id="select-choice-2">
+                  <optgroup label="1">
+                        <option value="Choice 1">Choice 1</option>
+                    <option value="Choice 2">Choice 2</option>
+                    <option value="Choice 3">Choice 3</option>
+                  </optgroup>
+                      <optgroup label="2">
+                        <option value="Choice 1">Choice 1</option>
+                    <option value="Choice 2">Choice 2</option>
+                    <option value="Choice 3">Choice 3</option>
+                  </optgroup>
+            </select>
+        </div>
+      
+        <div>
+            <label for="check">Checkbox:</label>
+            <input type="checkbox" name="check" class="checkbox" id="check">
+        </div>
+          
+        <div>
+            <label for="textarea">Textarea:</label>
+            <textarea cols="40" rows="10" name="textarea" id="textarea"></textarea>
+        </div>-->
+    
+        <div>
+            <input type="submit" value="Display" name="display" class="submit">
+        </div>
+          
+        </fieldset>
+    
+    </form>
+</body>

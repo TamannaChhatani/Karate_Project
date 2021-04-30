@@ -1,0 +1,71 @@
+body
+{
+    font-size: 15px;
+}
+table
+{
+    margin: 30px auto;
+    border-collapse:collapse;
+    text-align: left;
+}
+tr
+{
+    border-bottom: 1px solid #cbcbcb;
+}
+td
+{
+    height: 30px;
+    width: 2%;
+    border: none;
+}
+input
+{
+    border-radius: 10px;
+}
+select
+{
+    border-radius: 10px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.heading
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: solid;
+    text-transform: capitalize;
+}
+
+.btn-primary2 {
+    border-radius: 26px;
+    color:black;
+    background-color: #f0ad4e;
+    border: 1px solid #fff;
+    border-color: #f0ad4e;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}

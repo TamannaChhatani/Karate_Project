@@ -1,0 +1,126 @@
+$color - theme: #488bf4
+
+$color-heading:     # 363636
+$color - content: #858585
+
+$color-background:  # f0f2f2
+$color - footer: black
+$color - news: #4549a8
+
+$color-community:   # dc563f
+$color - release: #60c645
+
+$color-border:      # c0c0c8
+$font - content: "Roboto Slab", serif
+
+html
+font - size: 1 rem
+body
+background: $color - background
+	.bracket
+display: inline - block
+position: absolute
+left: 50 %
+	top: 50 %
+	transform: translate(-50 % , -50 % )
+white - space: nowrap
+font - size: 0
+	.round
+display: inline - block
+vertical - align: middle
+	.winners &
+	> div
+display: inline - block
+vertical - align: middle &
+	.matchups
+	.matchup &
+	: last - child
+margin - bottom: 0!important
+	.participants
+border - radius: 0.25 rem
+overflow: hidden
+	.participant
+box - sizing: border - box
+color: $color - content
+border - left: 0.25 rem solid $color - content
+background: white
+width: 14 rem
+height: 3 rem
+box - shadow: 0 2 px 2 px 0 rgba(0, 0, 0, 0.12) &
+	.winner
+color: $color - release
+border - color: $color - release &
+	.loser
+color: $color - community
+border - color: $color - community &
+	: not(: last - child)
+border - bottom: thin solid $color - background
+span
+margin: 0 1.25 rem
+line - height: 3
+font - size: 1 rem
+font - family: "Roboto Slab" &
+	.connector &
+	.filled
+	.line, & .bottom.merger: after, & .top.merger: before
+border - color: $color - release
+	.line, .merger
+box - sizing: border - box
+width: 2 rem
+display: inline - block
+vertical - align: top
+	.line
+border - bottom: thin solid $color - border
+height: 4 rem
+	.merger
+position: relative
+height: 8 rem &
+	: before, &: after
+content: ""
+display: block
+box - sizing: border - box
+width: 100 %
+	height: 50 %
+	border: 0 solid
+border - color: $color - border &
+	: before
+border - right - width: thin
+border - top - width: thin &
+	: after
+border - right - width: thin
+border - bottom - width: thin &
+	.quarterfinals
+	.winners &
+	: not(: last - child)
+margin - bottom: 2 rem
+	.matchups
+	.matchup &
+	: not(: last - child)
+margin - bottom: 2 rem
+	.participants
+	.participant &
+	.semifinals
+	.winners
+	.matchups
+	.matchup &
+	: not(: last - child)
+margin - bottom: 10 rem
+	.participants
+	.participant
+	.connector
+	.merger
+height: 16 rem
+	.line
+height: 8 rem &
+	.finals
+	.winners
+	.matchups
+	.matchup
+	.participants
+	.participant
+	.connector
+	.merger
+height: 3 rem
+	.line
+height: 1.5 rem &
+	.champion

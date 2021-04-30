@@ -1,0 +1,48 @@
+.LOG
+15:12 15-02-2021
+
+15:25 15-02-2021
+[15-Feb-2021 10:58:44 Europe/Berlin] At line 2person namedNANCY  record is not found
+[15-Feb-2021 10:58:44 Europe/Berlin] At line 3person namedyashrecord is not found
+[15-Feb-2021 10:59:38 Europe/Berlin] At line 2person named  NANCY    record is not found
+[15-Feb-2021 10:59:38 Europe/Berlin] At line 3person named  yash  record is not found
+[15-Feb-2021 11:00:30 Europe/Berlin] At line 2person named  NANCY    record is not inserted into database.
+[15-Feb-2021 11:00:30 Europe/Berlin] At line 3person named  yash  record is not inserted into database.
+[15-Feb-2021 11:01:13 Europe/Berlin] At line 2person named  NANCY    record is not inserted into database.
+
+[15-Feb-2021 11:01:13 Europe/Berlin] At line 3person named  yash  record is not inserted into database.
+
+[15-Feb-2021 11:03:16 Europe/Berlin] At line 2person named  NANCY    record is not inserted into database.<br>
+[15-Feb-2021 11:03:16 Europe/Berlin] At line 3person named  yash  record is not inserted into database.<br>
+[15-Feb-2021 11:03:31 Europe/Berlin] At line 2person named  NANCY    record is not inserted into database.<br>
+[15-Feb-2021 11:03:31 Europe/Berlin] At line 3person named  yash  record is not inserted into database.<br>
+[15-Feb-2021 11:03:41 Europe/Berlin] At line 2person named  NANCY    record is not inserted into database.<br>
+[15-Feb-2021 11:03:41 Europe/Berlin] At line 3person named  yash  record is not inserted into database.<br>
+[15-Feb-2021 11:03:53 Europe/Berlin] At line 2person named  NANCY    record is not inserted into database.<br>
+[15-Feb-2021 11:03:53 Europe/Berlin] At line 3person named  yash  record is not inserted into database.<br>
+[15-Feb-2021 11:04:10 Europe/Berlin] At line 2    person named  NANCY    record is not inserted into database.<br>
+[15-Feb-2021 11:04:10 Europe/Berlin] At line 3    person named  yash  record is not inserted into database.<br>
+[15-Feb-2021 11:04:26 Europe/Berlin] At line 2        person named  NANCY    record is not inserted into database.<br>
+[15-Feb-2021 11:04:26 Europe/Berlin] At line 3        person named  yash  record is not inserted into database.<br>
+[15-Feb-2021 11:04:33 Europe/Berlin] At line 2                           person named  NANCY    record is not inserted into database.<br>
+[15-Feb-2021 11:04:33 Europe/Berlin] At line 3                           person named  yash  record is not inserted into database.<br>
+[15-Feb-2021 11:04:37 Europe/Berlin] At line 2                           person named  NANCY    record is not inserted into database.<br>
+[15-Feb-2021 11:04:37 Europe/Berlin] At line 3                           person named  yash  record is not inserted into database.<br>
+[15-Feb-2021 11:09:21 Europe/Berlin] At line 2     person named NANCY    record is not inserted into database.<br>
+[15-Feb-2021 11:09:21 Europe/Berlin] At line 3     person named yash  record is not inserted into database.<br>
+[15-Feb-2021 11:10:08 Europe/Berlin] At line 2     person named NANCY    record is not inserted into database.<br>
+[15-Feb-2021 11:10:08 Europe/Berlin] At line 3     person named yash  record is not inserted into database.<br>
+[15-Feb-2021 11:10:17 Europe/Berlin] At line 2     person named NANCY    record is not inserted into database.<br>
+[15-Feb-2021 11:10:17 Europe/Berlin] At line 3     person named yash  record is not inserted into database.<br>
+
+15:42 15-02-2021
+[15-Feb-2021 11:25:18 Europe/Berlin] At line 2     person named NANCY    record is not inserted into database.<br>
+[15-Feb-2021 11:25:18 Europe/Berlin] At line 3     person named yash  record is not inserted into database.<br>
+[22-Apr-2021 14:12:13 Europe/Berlin] At line 2     person named NANCY    record is not inserted into database.<br>
+[22-Apr-2021 14:12:13 Europe/Berlin] At line 3     person named yash  record is not inserted into database.<br>
+[22-Apr-2021 14:12:14 Europe/Berlin] At line 4     person named ISHANI SENGUPTA  record is not inserted into database.<br>
+[22-Apr-2021 14:20:57 Europe/Berlin] At line 2     person named NANCY    record is not inserted into database.<br>
+[22-Apr-2021 14:20:57 Europe/Berlin] At line 3     person named yash  record is not inserted into database.<br>
+[22-Apr-2021 14:20:57 Europe/Berlin] At line 4     person named ISHANI SENGUPTA  record is not inserted into database.<br>
+[23-Apr-2021 06:47:46 Europe/Berlin] At line 2     person named NANCY    record is not inserted into database.<br>
+[23-Apr-2021 06:47:46 Europe/Berlin] At line 3     person named yash  record is not inserted into database.<br>
